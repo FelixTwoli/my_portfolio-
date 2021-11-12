@@ -6,8 +6,9 @@
   }
   
   body {
-    background-color: rgb(175, 111, 111);
+    background-color: rgb(207, 198, 198);
     height: 100vh;
+    font-family: Arial, sans-serif;
   }
   .navbar {
     background-color: #746c6c;
@@ -44,12 +45,32 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 20px;
   }
   
-  .jumbo-section {
-    padding-top: 50px;
+  #main-section {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  img {
+      width: 120px;
+      border-radius: 60px;
   }
   
-  .copyright_info {
-    font-size: 18px;
+  .copyright-info {
+    width: 20em;
+    border-color: 1px solid #ffffff;
+    font-size: 20px;
+    margin: 0 auto;
+
   }
+
+  footer {
+    padding-top: 1em;
+    margin-top: 3em;
+    width: 100%;
+    background-color: #746c6c;
+    height: 4.5em;
+
+}
