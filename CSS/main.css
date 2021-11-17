@@ -1,6 +1,7 @@
 /* This is the base css file */
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
@@ -51,33 +52,96 @@
     padding-bottom: 20px;
   }
   
-  #main-section {
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   height: auto;
-
-    flex-direction: row-reverse;
-    margin-top: 10em;
-
+  #container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
-  .image {
-      width: 50px;
-      object-fit: cover;
-      border-radius: 50px;
+  .header-card {
+    width: 320px;
+    height: 400px;
+    margin: 10px 10px 10px 50px;
   }
 
-  .caption {
-    width: 20em; 
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 94px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 30px;
+    height: 30px;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: center;
+
+
+  }
+  .card {
+    background-color: azure;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+  }
+
+  .title {
+    position: absolute;
+    max-height: 30px;
+    font-size: 28px;
+    margin-bottom: 420px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: black;
     
-
   }
 
-  h1 {
-      font-size: 23px;
+  .card-image {
+    border-radius: 12px;
+    height: 150px;
+    margin-bottom: 15px;
   }
 
+  .car-1 {
+    object-fit: cover;
+    border-radius: 12px;
+    background-image: url(/IMAGES/calculator.jpg);
+    background-size: cover;
+  }
+
+  .car-3 {
+    object-fit: cover;
+    background-image: url(/IMAGES/login.PNG);
+    background-size: cover;
+  }
+
+  .car-2 {
+    object-fit: cover;
+    background-image: url(/IMAGES/whatsap\ im.PNG);
+    background-size: cover;
+  }
+
+  .card p {
+    padding: 12px;
+  }
+
+  .card a {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    color: blue;
+  }
   
   .copyright-info {
     width: 20em;
