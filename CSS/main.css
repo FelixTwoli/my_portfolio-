@@ -177,3 +177,16 @@
 
 }
 
+.h {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#c {
+ 
+  margin: 30px 100px;
+  width: 100%;
+  height: 1000px;
+}
+
