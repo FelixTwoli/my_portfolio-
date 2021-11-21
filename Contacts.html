@@ -22,70 +22,67 @@
         </div>
     </nav>
     <!--Hero Section-->
-    <header class="h">
-        <h1>
-            Drop me a line 
-        </h1>
-        <p>
-            For Booking, make an apointment to consult about servies 
-            I offer by filling the form below
-        </p>
-   
-        <p>
-            Find out everything about me
-        </p>
-        <img src="/IMAGES/my image.png"
-        alt="Felix Twoli image">
-    </header>
-    <!--Main Page Content-->
-    <main id="c">
-          <h2>Send a message</h2> 
-          <form action="">
-              <div>
-                  <label for="name">Felix Twoli</label>
-                  <input type="text" id="name">
 
-              </div>
-              <div>
-                <label for="email">Email</label>
-                <input type="email" id="Email">
-              </div>
-              <div>
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject">
-              </div>
 
-              <div>
-                <label for="product">Product</label>
-                <select type="text" id="product" name="products">
-                    <option value="web">Web Application</option>
-                    <option value="desktop">Desktop Application</option>
-                    <option value="Mobile">Mobile Application</option>
-                    <option value="other">Other</option>
-
-              </div>
-              <div>
-                <label for="message">Message</label>
-                <textarea type="text" id="message" cols="30" rows="10">
-
-                 </textarea>   
-              </div>
-
-              <div>
-                  <input type="submit" value="send">
-              </div>
-          </form>
-    </main>
+    <form id="survey-form">
+        <div>
+            <label for="input">Name
+            <input type="text" id="name-label" placeholder="Enter your name" required>
+         </label>
+        </div>
+        <div>
+            <label for="input">Email
+             <input type="text" id="email-label" placeholder="Enter your Email" required>
+            </label>
+        </div>
+        
+        <div>
+            <p class="describe">products</p>
+            <select name="dropdown" id="dropdown">
+                <option value="select current role" disabled selected>select current products</option>
+                <option value="Web Application">Web Application</option>
+                <option value="desktop">Desktop</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="radio-button">
+            <p>Preferred Means</p>
+            <div>
+                 <input type="radio" name="ra-button" value="Tel" checked>
+                 <label for="Tel">Tel</label>
+             </div>
+             <div>   
+                 <input type="radio" name="ra-button" value="Email">
+                 <label for="Maybe">Email</label>
+             </div>
+             
+        </div>
+        
+     
+         <div>
+             <p class="describe">Message</p>
+             <textarea name="input" id="textarea" cols="82" rows="8" placeholder="Enter your message here..."></textarea>
+         </div>
+ 
+         <div>
+             <input type="submit" id="submit" value="send">
+         </div>
+ 
+ 
+     
+    </form>
     <!--Footer-->
     <footer>
-        <ul>
-            <li><a href="https://github.com/FelixTwoli"><i class="fab fa-github"></i>Github</a></li>
-            <li><a href="https://www.linkedin.com/in/felix-twoli-70a4a4210/"><i class="fab fa-linkedin">Linkedin</i></a></li>
-            <li><a href="https://twitter.com/FTwoli"><i class="fab fa-twitter-square">Twitter</i></a></li>
-            <li><a href="mailto:felixtwoli21@gmail.com"><i class="fas fa-envelope"></i>Email</a></li>
-            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>Instagram</a></li>   
-        </ul>
-        <p class="copyright-info">&copy; 2021 all right reserved &TRADE;My portofolio</p>  
-    </footer>
+        <ul class="social">
+         <li><a href="https://github.com/FelixTwoli" class="nav-link"><i class="fab fa-github"></i>Github</a></li>
+         <li><a href="https://www.linkedin.com/in/felix-twoli-70a4a4210/" class="nav-link"><i class="fab fa-linkedin">Linkedin</i></a></li>
+         <li><a href="https://twitter.com/FTwoli" class="nav-link"><i class="fab fa-twitter-square">Twitter</i></a></li>
+         <li><a href="mailto:felixtwoli21@gmail.com" class="nav-link"><i class="fas fa-envelope"></i>Email</a></li>
+         <li><a href="https://www.instagram.com/" class="nav-link"><i class="fab fa-instagram"></i>Instagram</a></li> 
+            
+        </ul> 
+        <p class="copyright-info">&copy; 2021 all right reserved &TRADE;<a href="">Felix Twoli</a></p>  
+     </footer>
 </body>
 </html>
