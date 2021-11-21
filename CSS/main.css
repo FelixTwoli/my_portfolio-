@@ -108,6 +108,7 @@
     width: 350px;
     height: 400px;
     margin: 10px;
+    border-radius: 12px;
   }
 
   .title {
@@ -124,15 +125,14 @@
   }
 
   .card-image {
-    border-radius: 12px;
-    height: 150px;
+    height: 300px;
     margin-bottom: 15px;
   }
 
   .car-1 {
     object-fit: cover;
     border-radius: 12px;
-    background-image: url(/IMAGES/calculator.jpg);
+    background-image: url(/IMAGES/calculator.jpg); 
     background-size: cover;
   }
 
@@ -148,8 +148,9 @@
     background-size: cover;
   }
 
-  .card p {
-    padding: 12px;
+  .card h2 {
+    display: flex;
+    justify-content: center;
   }
 
   .card a {
